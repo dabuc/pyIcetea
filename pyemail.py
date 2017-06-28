@@ -10,7 +10,7 @@ def _format_addr(s):
     return formataddr((Header(name, 'utf-8').encode(), addr))
 
 
-from_addr = 'dabu570@163.com'
+from_addr = input('From:')
 password = input('password:')
 to_addr = 'dabu570@163.com'
 smtp_server = 'smtp.163.com'
